@@ -1,28 +1,28 @@
-2024-07-08 16:05:39 INFO  c.k.e.EmployeeLoginApplication - Starting EmployeeLoginApplication using Java 17.0.11 with PID 249441 (/home/mohit.kumar/Documents/EmployeeLogin_optimise/target/classes started by mohit.kumar in /home/mohit.kumar/Documents/EmployeeLogin_optimise)
-2024-07-08 16:05:39 INFO  c.k.e.EmployeeLoginApplication - No active profile set, falling back to 1 default profile: "default"
-2024-07-08 16:05:40 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-07-08 16:05:40 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-07-08 16:05:40 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
-2024-07-08 16:05:40 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-07-08 16:05:40 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-07-08 16:05:40 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
-2024-07-08 16:05:40 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2024-07-08 16:05:40 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2024-07-08 16:05:40 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-07-08 16:05:40 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
-2024-07-08 16:05:40 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-07-08 16:05:40 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 896 ms
-2024-07-08 16:05:40 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
-2024-07-08 16:05:40 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2024-07-08 16:05:41 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-07-08 16:05:41 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-07-08 16:05:41 INFO  org.redisson.Version - Redisson 3.16.3
-2024-07-08 16:05:41 INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-2024-07-08 16:05:41 INFO  o.r.c.pool.MasterConnectionPool - 24 connections initialized for 127.0.0.1/127.0.0.1:6379
-2024-07-08 16:05:42 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-07-08 16:05:42 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2024-07-08 16:05:42 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2024-07-08 16:05:42 INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+2024-07-09 10:32:15 INFO  c.k.e.EmployeeLoginApplication - Starting EmployeeLoginApplication using Java 17.0.11 with PID 328735 (/home/mohit.kumar/Documents/EmployeeLogin_optimise/target/classes started by mohit.kumar in /home/mohit.kumar/Documents/EmployeeLogin_optimise)
+2024-07-09 10:32:15 INFO  c.k.e.EmployeeLoginApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-09 10:32:15 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-09 10:32:15 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-09 10:32:15 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-07-09 10:32:15 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-09 10:32:15 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-09 10:32:15 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-07-09 10:32:16 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-09 10:32:16 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-09 10:32:16 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-09 10:32:16 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-09 10:32:16 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-09 10:32:16 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1315 ms
+2024-07-09 10:32:16 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-09 10:32:16 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-09 10:32:16 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-09 10:32:17 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-09 10:32:17 INFO  org.redisson.Version - Redisson 3.16.3
+2024-07-09 10:32:17 INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2024-07-09 10:32:17 INFO  o.r.c.pool.MasterConnectionPool - 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2024-07-09 10:32:17 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-09 10:32:18 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-09 10:32:18 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-09 10:32:18 INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
 	allow.auto.create.topics = true
 	auto.commit.interval.ms = 5000
 	auto.include.jmx.reporter = true
@@ -120,35 +120,1606 @@
 	ssl.truststore.type = JKS
 	value.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
 
-2024-07-08 16:05:42 INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
-2024-07-08 16:05:42 INFO  o.a.k.c.consumer.ConsumerConfig - These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
-2024-07-08 16:05:42 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.7.0
-2024-07-08 16:05:42 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 2ae524ed625438c5
-2024-07-08 16:05:42 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1720434942581
-2024-07-08 16:05:42 INFO  o.a.k.c.c.i.LegacyKafkaConsumer - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Subscribed to topic(s): employee-topic
-2024-07-08 16:05:42 INFO  c.k.e.EmployeeLoginApplication - Started EmployeeLoginApplication in 2.937 seconds (process running for 3.212)
-2024-07-08 16:05:42 INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Cluster ID: OLu-XQJbQ0iv5lCQWskzAA
-2024-07-08 16:05:42 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Discovered group coordinator Stock-3:9092 (id: 2147483647 rack: null)
-2024-07-08 16:05:42 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] (Re-)joining group
-2024-07-08 16:05:42 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: need to re-join with the given member-id: consumer-employee-group-1-2ee242d0-3c99-456a-9e5a-b58db0a71435
-2024-07-08 16:05:42 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] (Re-)joining group
-2024-07-08 16:05:42 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Successfully joined group with generation Generation{generationId=43, memberId='consumer-employee-group-1-2ee242d0-3c99-456a-9e5a-b58db0a71435', protocol='range'}
-2024-07-08 16:05:42 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Successfully synced group in generation Generation{generationId=43, memberId='consumer-employee-group-1-2ee242d0-3c99-456a-9e5a-b58db0a71435', protocol='range'}
-2024-07-08 16:05:42 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Notifying assignor about the new Assignment(partitions=[employee-topic-0])
-2024-07-08 16:05:42 INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Adding newly assigned partitions: employee-topic-0
-2024-07-08 16:05:42 INFO  o.a.k.c.c.internals.ConsumerUtils - Setting offset for partition employee-topic-0 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[Stock-3:9092 (id: 0 rack: null)], epoch=0}}
-2024-07-08 16:05:42 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: partitions assigned: [employee-topic-0]
-2024-07-08 16:05:49 INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Revoke previously assigned partitions employee-topic-0
-2024-07-08 16:05:49 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: partitions revoked: [employee-topic-0]
-2024-07-08 16:05:49 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Member consumer-employee-group-1-2ee242d0-3c99-456a-9e5a-b58db0a71435 sending LeaveGroup request to coordinator Stock-3:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
-2024-07-08 16:05:49 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Resetting generation and member id due to: consumer pro-actively leaving the group
-2024-07-08 16:05:49 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: consumer pro-actively leaving the group
-2024-07-08 16:05:49 INFO  o.a.k.c.c.i.LegacyKafkaConsumer - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Unsubscribed all topics or patterns and assigned partitions
-2024-07-08 16:05:49 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Resetting generation and member id due to: consumer pro-actively leaving the group
-2024-07-08 16:05:49 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: consumer pro-actively leaving the group
-2024-07-08 16:05:50 INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
-2024-07-08 16:05:50 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2024-07-08 16:05:50 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
-2024-07-08 16:05:50 INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
-2024-07-08 16:05:50 INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-employee-group-1 unregistered
-2024-07-08 16:05:50 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: Consumer stopped
+2024-07-09 10:32:18 INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2024-07-09 10:32:18 INFO  o.a.k.c.consumer.ConsumerConfig - These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2024-07-09 10:32:18 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.7.0
+2024-07-09 10:32:18 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 2ae524ed625438c5
+2024-07-09 10:32:18 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1720501338408
+2024-07-09 10:32:18 INFO  o.a.k.c.c.i.LegacyKafkaConsumer - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Subscribed to topic(s): employee-topic
+2024-07-09 10:32:18 INFO  c.k.e.EmployeeLoginApplication - Started EmployeeLoginApplication in 3.736 seconds (process running for 4.065)
+2024-07-09 10:32:18 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:18 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:18 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:18 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:18 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:18 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:18 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:18 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:18 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:19 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:19 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:19 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:19 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:19 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:19 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:20 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:20 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:20 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:21 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:21 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:21 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:22 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:22 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:22 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:23 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:23 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:23 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:24 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:24 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:24 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:25 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:25 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:25 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:25 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:25 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:25 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:26 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:26 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:26 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:27 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:27 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:27 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:28 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:28 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:28 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:29 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:29 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:29 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:30 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:30 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:30 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:31 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:31 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:31 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:32 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:32 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:32 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:33 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:33 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:33 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:34 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:34 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:34 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:35 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:35 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:35 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:36 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:36 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:36 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:37 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:37 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:37 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:38 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:38 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:38 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:39 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:39 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:39 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:40 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:40 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:40 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:41 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:41 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:41 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:42 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:42 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:42 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:43 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:43 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:43 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:44 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:44 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:44 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:45 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:45 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:45 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:46 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:46 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:46 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:47 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:47 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:47 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:48 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:48 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:48 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:49 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:49 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:49 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:50 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:50 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:50 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:51 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:51 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:51 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:51 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:51 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:51 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:52 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:52 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:52 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:54 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:54 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:54 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:55 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:55 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:55 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:55 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:55 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:55 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:56 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:56 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:56 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:57 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:57 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:57 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:32:58 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:32:58 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:32:58 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:33:00 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:33:00 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:33:00 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:33:00 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:33:00 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:33:00 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:33:01 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:33:01 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:33:01 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:33:02 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:33:02 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:33:02 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:33:03 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:33:03 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:33:03 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:33:04 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:33:04 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:33:04 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:33:05 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:33:05 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:33:05 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:33:06 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:33:06 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:33:06 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:33:07 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:33:07 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:33:07 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:33:08 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:33:08 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:33:08 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:33:09 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:33:09 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:33:09 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:33:10 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:33:10 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:33:10 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:33:11 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:33:11 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:33:11 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:33:12 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:33:12 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:33:12 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:33:13 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:33:13 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:33:13 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:33:14 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:33:14 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-07-09 10:33:14 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-07-09 10:33:15 WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Error while fetching metadata with correlation id 2 : {employee-topic=LEADER_NOT_AVAILABLE}
+2024-07-09 10:33:15 INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Cluster ID: OLu-XQJbQ0iv5lCQWskzAA
+2024-07-09 10:33:15 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Discovered group coordinator Stock-3:9092 (id: 2147483647 rack: null)
+2024-07-09 10:33:15 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] (Re-)joining group
+2024-07-09 10:33:15 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: need to re-join with the given member-id: consumer-employee-group-1-e354d12b-a21e-4558-97df-64e001685913
+2024-07-09 10:33:15 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] (Re-)joining group
+2024-07-09 10:33:16 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Successfully joined group with generation Generation{generationId=45, memberId='consumer-employee-group-1-e354d12b-a21e-4558-97df-64e001685913', protocol='range'}
+2024-07-09 10:33:16 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Successfully synced group in generation Generation{generationId=45, memberId='consumer-employee-group-1-e354d12b-a21e-4558-97df-64e001685913', protocol='range'}
+2024-07-09 10:33:16 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Notifying assignor about the new Assignment(partitions=[])
+2024-07-09 10:33:16 INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Adding newly assigned partitions: 
+2024-07-09 10:33:16 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: partitions assigned: []
+2024-07-09 10:33:26 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Member consumer-employee-group-1-e354d12b-a21e-4558-97df-64e001685913 sending LeaveGroup request to coordinator Stock-3:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2024-07-09 10:33:27 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-07-09 10:33:27 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: consumer pro-actively leaving the group
+2024-07-09 10:33:27 INFO  o.a.k.c.c.i.LegacyKafkaConsumer - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Unsubscribed all topics or patterns and assigned partitions
+2024-07-09 10:33:27 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-07-09 10:33:27 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: consumer pro-actively leaving the group
+2024-07-09 10:33:27 INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-07-09 10:33:27 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-07-09 10:33:27 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-07-09 10:33:27 INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-07-09 10:33:27 INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-employee-group-1 unregistered
+2024-07-09 10:33:27 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: Consumer stopped
+2024-07-09 10:33:28 INFO  c.k.e.EmployeeLoginApplication - Starting EmployeeLoginApplication using Java 17.0.11 with PID 329881 (/home/mohit.kumar/Documents/EmployeeLogin_optimise/target/classes started by mohit.kumar in /home/mohit.kumar/Documents/EmployeeLogin_optimise)
+2024-07-09 10:33:28 INFO  c.k.e.EmployeeLoginApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-09 10:33:28 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-09 10:33:28 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-09 10:33:28 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2024-07-09 10:33:28 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-09 10:33:28 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-09 10:33:29 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-07-09 10:33:29 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-09 10:33:29 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-09 10:33:29 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-09 10:33:29 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-09 10:33:29 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-09 10:33:29 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1287 ms
+2024-07-09 10:33:29 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-09 10:33:29 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-09 10:33:30 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-09 10:33:30 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-09 10:33:30 INFO  org.redisson.Version - Redisson 3.16.3
+2024-07-09 10:33:30 INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2024-07-09 10:33:30 INFO  o.r.c.pool.MasterConnectionPool - 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2024-07-09 10:33:31 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-09 10:33:31 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-09 10:33:31 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-09 10:33:31 INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-employee-group-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = employee-group
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+
+2024-07-09 10:33:31 INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2024-07-09 10:33:32 INFO  o.a.k.c.consumer.ConsumerConfig - These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2024-07-09 10:33:32 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.7.0
+2024-07-09 10:33:32 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 2ae524ed625438c5
+2024-07-09 10:33:32 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1720501412149
+2024-07-09 10:33:32 INFO  o.a.k.c.c.i.LegacyKafkaConsumer - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Subscribed to topic(s): employee-topic
+2024-07-09 10:33:32 INFO  c.k.e.EmployeeLoginApplication - Started EmployeeLoginApplication in 4.255 seconds (process running for 4.531)
+2024-07-09 10:33:32 INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Cluster ID: OLu-XQJbQ0iv5lCQWskzAA
+2024-07-09 10:33:32 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Discovered group coordinator Stock-3:9092 (id: 2147483647 rack: null)
+2024-07-09 10:33:32 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] (Re-)joining group
+2024-07-09 10:33:32 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: need to re-join with the given member-id: consumer-employee-group-1-70fc9d85-e10a-460d-a18e-d5a872d65a7c
+2024-07-09 10:33:32 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] (Re-)joining group
+2024-07-09 10:33:34 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Successfully joined group with generation Generation{generationId=47, memberId='consumer-employee-group-1-70fc9d85-e10a-460d-a18e-d5a872d65a7c', protocol='range'}
+2024-07-09 10:33:34 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Successfully synced group in generation Generation{generationId=47, memberId='consumer-employee-group-1-70fc9d85-e10a-460d-a18e-d5a872d65a7c', protocol='range'}
+2024-07-09 10:33:34 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Notifying assignor about the new Assignment(partitions=[employee-topic-0])
+2024-07-09 10:33:34 INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Adding newly assigned partitions: employee-topic-0
+2024-07-09 10:33:34 INFO  o.a.k.c.c.internals.ConsumerUtils - Setting offset for partition employee-topic-0 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[Stock-3:9092 (id: 0 rack: null)], epoch=0}}
+2024-07-09 10:33:34 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: partitions assigned: [employee-topic-0]
+2024-07-09 10:35:17 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 10:35:17 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-09 10:35:17 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-07-09 10:35:17 INFO  c.k.e.service.SessionService - 2
+2024-07-09 10:35:17 INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = EmployeeLogin-producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2024-07-09 10:35:17 INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2024-07-09 10:35:17 INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=EmployeeLogin-producer-1] Instantiated an idempotent producer.
+2024-07-09 10:35:17 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.7.0
+2024-07-09 10:35:17 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 2ae524ed625438c5
+2024-07-09 10:35:17 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1720501517707
+2024-07-09 10:35:17 INFO  org.apache.kafka.clients.Metadata - [Producer clientId=EmployeeLogin-producer-1] Cluster ID: OLu-XQJbQ0iv5lCQWskzAA
+2024-07-09 10:35:17 INFO  c.k.e.service.SessionService - SignUp successfully
+2024-07-09 10:35:17 INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=EmployeeLogin-producer-1] ProducerId set to 2000 with epoch 0
+2024-07-09 10:35:59 INFO  c.k.e.service.SessionService - Session created for user id: 2
+2024-07-09 10:36:21 INFO  c.k.e.service.SessionService - 24
+2024-07-09 10:36:21 INFO  c.k.e.service.SessionService - Session invalidated for user id: 24
+2024-07-09 10:36:55 ERROR c.k.e.service.SessionService - No session found for the request.
+2024-07-09 10:42:32 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:44:17 INFO  o.apache.kafka.clients.NetworkClient - [Producer clientId=EmployeeLogin-producer-1] Node -1 disconnected.
+2024-07-09 10:46:04 INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Revoke previously assigned partitions employee-topic-0
+2024-07-09 10:46:04 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: partitions revoked: [employee-topic-0]
+2024-07-09 10:46:04 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Member consumer-employee-group-1-70fc9d85-e10a-460d-a18e-d5a872d65a7c sending LeaveGroup request to coordinator Stock-3:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2024-07-09 10:46:04 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-07-09 10:46:04 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: consumer pro-actively leaving the group
+2024-07-09 10:46:04 INFO  o.a.k.c.c.i.LegacyKafkaConsumer - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Unsubscribed all topics or patterns and assigned partitions
+2024-07-09 10:46:04 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-07-09 10:46:04 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: consumer pro-actively leaving the group
+2024-07-09 10:46:04 INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-07-09 10:46:04 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-07-09 10:46:04 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-07-09 10:46:04 INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-07-09 10:46:04 INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-employee-group-1 unregistered
+2024-07-09 10:46:04 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: Consumer stopped
+2024-07-09 10:46:04 INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=EmployeeLogin-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-07-09 10:46:04 INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-07-09 10:46:04 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-07-09 10:46:04 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-07-09 10:46:04 INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-07-09 10:46:04 INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for EmployeeLogin-producer-1 unregistered
+2024-07-09 10:46:06 INFO  c.k.e.EmployeeLoginApplication - Starting EmployeeLoginApplication using Java 17.0.11 with PID 335049 (/home/mohit.kumar/Documents/EmployeeLogin_optimise/target/classes started by mohit.kumar in /home/mohit.kumar/Documents/EmployeeLogin_optimise)
+2024-07-09 10:46:06 INFO  c.k.e.EmployeeLoginApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-09 10:46:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-09 10:46:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-09 10:46:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-07-09 10:46:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-09 10:46:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-09 10:46:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2024-07-09 10:46:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-09 10:46:07 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-09 10:46:07 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-09 10:46:07 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-09 10:46:07 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-09 10:46:07 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 874 ms
+2024-07-09 10:46:07 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-09 10:46:07 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-09 10:46:08 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-09 10:46:08 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-09 10:46:08 INFO  org.redisson.Version - Redisson 3.16.3
+2024-07-09 10:46:08 INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2024-07-09 10:46:08 INFO  o.r.c.pool.MasterConnectionPool - 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2024-07-09 10:46:08 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-09 10:46:09 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-09 10:46:09 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-09 10:46:09 INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-employee-group-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = employee-group
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+
+2024-07-09 10:46:09 INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2024-07-09 10:46:09 INFO  o.a.k.c.consumer.ConsumerConfig - These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2024-07-09 10:46:09 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.7.0
+2024-07-09 10:46:09 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 2ae524ed625438c5
+2024-07-09 10:46:09 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1720502169281
+2024-07-09 10:46:09 INFO  o.a.k.c.c.i.LegacyKafkaConsumer - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Subscribed to topic(s): employee-topic
+2024-07-09 10:46:09 INFO  c.k.e.EmployeeLoginApplication - Started EmployeeLoginApplication in 2.763 seconds (process running for 3.13)
+2024-07-09 10:46:09 INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Cluster ID: OLu-XQJbQ0iv5lCQWskzAA
+2024-07-09 10:46:09 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Discovered group coordinator Stock-3:9092 (id: 2147483647 rack: null)
+2024-07-09 10:46:09 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] (Re-)joining group
+2024-07-09 10:46:09 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: need to re-join with the given member-id: consumer-employee-group-1-7015cf33-5d59-4767-90ca-a2154f46019a
+2024-07-09 10:46:09 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] (Re-)joining group
+2024-07-09 10:46:10 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Successfully joined group with generation Generation{generationId=49, memberId='consumer-employee-group-1-7015cf33-5d59-4767-90ca-a2154f46019a', protocol='range'}
+2024-07-09 10:46:10 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Successfully synced group in generation Generation{generationId=49, memberId='consumer-employee-group-1-7015cf33-5d59-4767-90ca-a2154f46019a', protocol='range'}
+2024-07-09 10:46:10 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Notifying assignor about the new Assignment(partitions=[employee-topic-0])
+2024-07-09 10:46:10 INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Adding newly assigned partitions: employee-topic-0
+2024-07-09 10:46:10 INFO  o.a.k.c.c.internals.ConsumerUtils - Setting offset for partition employee-topic-0 to the committed offset FetchPosition{offset=6, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[Stock-3:9092 (id: 0 rack: null)], epoch=0}}
+2024-07-09 10:46:10 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: partitions assigned: [employee-topic-0]
+2024-07-09 10:46:26 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 10:46:26 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-09 10:46:26 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-07-09 10:46:26 INFO  c.k.e.service.SessionService - 1
+2024-07-09 10:46:26 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2024-07-09 10:46:26 ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry 'mohan' for key 'employee_login.UKg9p6h3vo2n8r5yq9998249ukt'
+2024-07-09 10:47:31 INFO  c.k.e.service.SessionService - 1
+2024-07-09 10:47:31 INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = EmployeeLogin-producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2024-07-09 10:47:31 INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2024-07-09 10:47:31 INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=EmployeeLogin-producer-1] Instantiated an idempotent producer.
+2024-07-09 10:47:31 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.7.0
+2024-07-09 10:47:31 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 2ae524ed625438c5
+2024-07-09 10:47:31 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1720502251210
+2024-07-09 10:47:31 INFO  org.apache.kafka.clients.Metadata - [Producer clientId=EmployeeLogin-producer-1] Cluster ID: OLu-XQJbQ0iv5lCQWskzAA
+2024-07-09 10:47:31 INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=EmployeeLogin-producer-1] ProducerId set to 2001 with epoch 0
+2024-07-09 10:47:31 INFO  c.k.e.service.SessionService - SignUp successfully
+2024-07-09 10:48:04 INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Revoke previously assigned partitions employee-topic-0
+2024-07-09 10:48:04 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: partitions revoked: [employee-topic-0]
+2024-07-09 10:48:04 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Member consumer-employee-group-1-7015cf33-5d59-4767-90ca-a2154f46019a sending LeaveGroup request to coordinator Stock-3:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2024-07-09 10:48:04 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-07-09 10:48:04 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: consumer pro-actively leaving the group
+2024-07-09 10:48:04 INFO  o.a.k.c.c.i.LegacyKafkaConsumer - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Unsubscribed all topics or patterns and assigned partitions
+2024-07-09 10:48:04 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-07-09 10:48:04 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: consumer pro-actively leaving the group
+2024-07-09 10:48:04 INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-07-09 10:48:04 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-07-09 10:48:04 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-07-09 10:48:04 INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-07-09 10:48:04 INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-employee-group-1 unregistered
+2024-07-09 10:48:04 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: Consumer stopped
+2024-07-09 10:48:04 INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=EmployeeLogin-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-07-09 10:48:04 INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-07-09 10:48:04 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-07-09 10:48:04 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-07-09 10:48:04 INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-07-09 10:48:04 INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for EmployeeLogin-producer-1 unregistered
+2024-07-09 10:48:05 INFO  c.k.e.EmployeeLoginApplication - Starting EmployeeLoginApplication using Java 17.0.11 with PID 336027 (/home/mohit.kumar/Documents/EmployeeLogin_optimise/target/classes started by mohit.kumar in /home/mohit.kumar/Documents/EmployeeLogin_optimise)
+2024-07-09 10:48:05 INFO  c.k.e.EmployeeLoginApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-09 10:48:06 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-09 10:48:06 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-09 10:48:06 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-07-09 10:48:06 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-09 10:48:06 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-09 10:48:06 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2024-07-09 10:48:06 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-09 10:48:06 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-09 10:48:06 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-09 10:48:06 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-09 10:48:06 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-09 10:48:06 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 720 ms
+2024-07-09 10:48:06 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-09 10:48:06 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-09 10:48:06 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-09 10:48:07 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-09 10:48:07 INFO  org.redisson.Version - Redisson 3.16.3
+2024-07-09 10:48:07 INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2024-07-09 10:48:07 INFO  o.r.c.pool.MasterConnectionPool - 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2024-07-09 10:48:07 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-09 10:48:07 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-09 10:48:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-09 10:48:07 INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-employee-group-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = employee-group
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+
+2024-07-09 10:48:07 INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2024-07-09 10:48:08 INFO  o.a.k.c.consumer.ConsumerConfig - These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2024-07-09 10:48:08 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.7.0
+2024-07-09 10:48:08 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 2ae524ed625438c5
+2024-07-09 10:48:08 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1720502288008
+2024-07-09 10:48:08 INFO  o.a.k.c.c.i.LegacyKafkaConsumer - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Subscribed to topic(s): employee-topic
+2024-07-09 10:48:08 INFO  c.k.e.EmployeeLoginApplication - Started EmployeeLoginApplication in 2.542 seconds (process running for 2.918)
+2024-07-09 10:48:08 INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Cluster ID: OLu-XQJbQ0iv5lCQWskzAA
+2024-07-09 10:48:08 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Discovered group coordinator Stock-3:9092 (id: 2147483647 rack: null)
+2024-07-09 10:48:08 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] (Re-)joining group
+2024-07-09 10:48:08 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: need to re-join with the given member-id: consumer-employee-group-1-c21082d6-452c-4ea9-8623-834f68451d7f
+2024-07-09 10:48:08 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] (Re-)joining group
+2024-07-09 10:48:10 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Successfully joined group with generation Generation{generationId=51, memberId='consumer-employee-group-1-c21082d6-452c-4ea9-8623-834f68451d7f', protocol='range'}
+2024-07-09 10:48:10 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Successfully synced group in generation Generation{generationId=51, memberId='consumer-employee-group-1-c21082d6-452c-4ea9-8623-834f68451d7f', protocol='range'}
+2024-07-09 10:48:10 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Notifying assignor about the new Assignment(partitions=[])
+2024-07-09 10:48:10 INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Adding newly assigned partitions: 
+2024-07-09 10:48:10 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: partitions assigned: []
+2024-07-09 10:57:08 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 10:59:30 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 10:59:30 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-09 10:59:30 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-07-09 10:59:30 INFO  c.k.e.service.SessionService - 1
+2024-07-09 10:59:31 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2024-07-09 10:59:31 ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry 'mohana' for key 'employee_login.UKg9p6h3vo2n8r5yq9998249ukt'
+2024-07-09 11:07:08 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 11:12:22 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Member consumer-employee-group-1-c21082d6-452c-4ea9-8623-834f68451d7f sending LeaveGroup request to coordinator Stock-3:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2024-07-09 11:12:22 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-07-09 11:12:22 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: consumer pro-actively leaving the group
+2024-07-09 11:12:22 INFO  o.a.k.c.c.i.LegacyKafkaConsumer - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Unsubscribed all topics or patterns and assigned partitions
+2024-07-09 11:12:22 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-07-09 11:12:22 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: consumer pro-actively leaving the group
+2024-07-09 11:12:22 INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-07-09 11:12:22 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-07-09 11:12:22 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-07-09 11:12:22 INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-07-09 11:12:22 INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-employee-group-1 unregistered
+2024-07-09 11:12:22 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: Consumer stopped
+2024-07-09 11:14:26 INFO  c.k.e.EmployeeLoginApplication - Starting EmployeeLoginApplication using Java 17.0.11 with PID 346730 (/home/mohit.kumar/Documents/EmployeeLogin_optimise/target/classes started by mohit.kumar in /home/mohit.kumar/Documents/EmployeeLogin_optimise)
+2024-07-09 11:14:26 INFO  c.k.e.EmployeeLoginApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-09 11:14:26 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-09 11:14:26 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-09 11:14:26 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-07-09 11:14:26 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-09 11:14:26 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-09 11:14:26 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-07-09 11:14:27 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-09 11:14:27 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-09 11:14:27 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-09 11:14:27 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-09 11:14:27 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-09 11:14:27 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1041 ms
+2024-07-09 11:14:27 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-09 11:14:27 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-09 11:14:27 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-09 11:14:28 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-09 11:14:28 INFO  org.redisson.Version - Redisson 3.16.3
+2024-07-09 11:14:28 INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2024-07-09 11:14:28 INFO  o.r.c.pool.MasterConnectionPool - 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2024-07-09 11:14:28 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-09 11:14:29 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-09 11:14:29 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-09 11:14:29 INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-employee-group-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = employee-group
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+
+2024-07-09 11:14:29 INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2024-07-09 11:14:29 INFO  o.a.k.c.consumer.ConsumerConfig - These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2024-07-09 11:14:29 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.7.0
+2024-07-09 11:14:29 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 2ae524ed625438c5
+2024-07-09 11:14:29 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1720503869438
+2024-07-09 11:14:29 INFO  o.a.k.c.c.i.LegacyKafkaConsumer - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Subscribed to topic(s): employee-topic
+2024-07-09 11:14:29 INFO  c.k.e.EmployeeLoginApplication - Started EmployeeLoginApplication in 3.417 seconds (process running for 3.892)
+2024-07-09 11:14:29 INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Cluster ID: OLu-XQJbQ0iv5lCQWskzAA
+2024-07-09 11:14:29 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Discovered group coordinator Stock-3:9092 (id: 2147483647 rack: null)
+2024-07-09 11:14:29 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] (Re-)joining group
+2024-07-09 11:14:29 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: need to re-join with the given member-id: consumer-employee-group-1-558f9864-67c6-4b49-93fd-f5fa11d2a1a6
+2024-07-09 11:14:29 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] (Re-)joining group
+2024-07-09 11:14:31 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Successfully joined group with generation Generation{generationId=53, memberId='consumer-employee-group-1-558f9864-67c6-4b49-93fd-f5fa11d2a1a6', protocol='range'}
+2024-07-09 11:14:31 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Successfully synced group in generation Generation{generationId=53, memberId='consumer-employee-group-1-558f9864-67c6-4b49-93fd-f5fa11d2a1a6', protocol='range'}
+2024-07-09 11:14:31 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Notifying assignor about the new Assignment(partitions=[employee-topic-0])
+2024-07-09 11:14:31 INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Adding newly assigned partitions: employee-topic-0
+2024-07-09 11:14:31 INFO  o.a.k.c.c.internals.ConsumerUtils - Setting offset for partition employee-topic-0 to the committed offset FetchPosition{offset=7, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[Stock-3:9092 (id: 0 rack: null)], epoch=0}}
+2024-07-09 11:14:31 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: partitions assigned: [employee-topic-0]
+2024-07-09 11:14:54 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 11:14:54 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-09 11:14:54 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-07-09 11:14:54 INFO  c.k.e.service.SessionService - 1
+2024-07-09 11:14:54 INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = EmployeeLogin-producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2024-07-09 11:14:54 INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2024-07-09 11:14:54 INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=EmployeeLogin-producer-1] Instantiated an idempotent producer.
+2024-07-09 11:14:54 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.7.0
+2024-07-09 11:14:54 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 2ae524ed625438c5
+2024-07-09 11:14:54 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1720503894211
+2024-07-09 11:14:54 INFO  org.apache.kafka.clients.Metadata - [Producer clientId=EmployeeLogin-producer-1] Cluster ID: OLu-XQJbQ0iv5lCQWskzAA
+2024-07-09 11:14:54 INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=EmployeeLogin-producer-1] ProducerId set to 2002 with epoch 0
+2024-07-09 11:14:54 INFO  c.k.e.service.SessionService - SignUp successfully
+2024-07-09 11:15:17 INFO  c.k.e.service.SessionService - Session created for user id: 4
+2024-07-09 11:15:36 INFO  c.k.e.service.SessionService - 28
+2024-07-09 11:15:36 INFO  c.k.e.service.SessionService - Session invalidated for user id: 28
+2024-07-09 11:23:29 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 11:23:54 INFO  o.apache.kafka.clients.NetworkClient - [Producer clientId=EmployeeLogin-producer-1] Node -1 disconnected.
+2024-07-09 11:25:44 INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Revoke previously assigned partitions employee-topic-0
+2024-07-09 11:25:44 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: partitions revoked: [employee-topic-0]
+2024-07-09 11:25:44 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Member consumer-employee-group-1-558f9864-67c6-4b49-93fd-f5fa11d2a1a6 sending LeaveGroup request to coordinator Stock-3:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2024-07-09 11:25:44 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-07-09 11:25:44 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: consumer pro-actively leaving the group
+2024-07-09 11:25:44 INFO  o.a.k.c.c.i.LegacyKafkaConsumer - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Unsubscribed all topics or patterns and assigned partitions
+2024-07-09 11:25:44 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-07-09 11:25:44 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: consumer pro-actively leaving the group
+2024-07-09 11:25:45 INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-07-09 11:25:45 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-07-09 11:25:45 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-07-09 11:25:45 INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-07-09 11:25:45 INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-employee-group-1 unregistered
+2024-07-09 11:25:45 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: Consumer stopped
+2024-07-09 11:25:45 INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=EmployeeLogin-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-07-09 11:25:45 INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-07-09 11:25:45 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-07-09 11:25:45 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-07-09 11:25:45 INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-07-09 11:25:45 INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for EmployeeLogin-producer-1 unregistered
+2024-07-09 11:25:47 INFO  c.k.e.EmployeeLoginApplication - Starting EmployeeLoginApplication using Java 17.0.11 with PID 351506 (/home/mohit.kumar/Documents/EmployeeLogin_optimise/target/classes started by mohit.kumar in /home/mohit.kumar/Documents/EmployeeLogin_optimise)
+2024-07-09 11:25:47 INFO  c.k.e.EmployeeLoginApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-09 11:25:48 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-09 11:25:48 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-09 11:25:48 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-07-09 11:25:48 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-09 11:25:48 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-09 11:25:48 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-07-09 11:25:48 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-09 11:25:48 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-09 11:25:48 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-09 11:25:48 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-09 11:25:48 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-09 11:25:48 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 908 ms
+2024-07-09 11:25:48 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-09 11:25:48 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-09 11:25:49 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-09 11:25:49 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-09 11:25:49 INFO  org.redisson.Version - Redisson 3.16.3
+2024-07-09 11:25:49 INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2024-07-09 11:25:49 INFO  o.r.c.pool.MasterConnectionPool - 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2024-07-09 11:25:50 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-09 11:25:50 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-09 11:25:50 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-09 11:25:50 INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-employee-group-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = employee-group
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+
+2024-07-09 11:25:50 INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2024-07-09 11:25:50 INFO  o.a.k.c.consumer.ConsumerConfig - These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2024-07-09 11:25:50 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.7.0
+2024-07-09 11:25:50 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 2ae524ed625438c5
+2024-07-09 11:25:50 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1720504550685
+2024-07-09 11:25:50 INFO  o.a.k.c.c.i.LegacyKafkaConsumer - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Subscribed to topic(s): employee-topic
+2024-07-09 11:25:50 INFO  c.k.e.EmployeeLoginApplication - Started EmployeeLoginApplication in 3.297 seconds (process running for 3.697)
+2024-07-09 11:25:50 INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Cluster ID: OLu-XQJbQ0iv5lCQWskzAA
+2024-07-09 11:25:50 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Discovered group coordinator Stock-3:9092 (id: 2147483647 rack: null)
+2024-07-09 11:25:50 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] (Re-)joining group
+2024-07-09 11:25:50 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: need to re-join with the given member-id: consumer-employee-group-1-b5e24866-6e97-4cb4-bad0-6e8dc4ce1cce
+2024-07-09 11:25:50 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] (Re-)joining group
+2024-07-09 11:25:53 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Successfully joined group with generation Generation{generationId=55, memberId='consumer-employee-group-1-b5e24866-6e97-4cb4-bad0-6e8dc4ce1cce', protocol='range'}
+2024-07-09 11:25:53 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Successfully synced group in generation Generation{generationId=55, memberId='consumer-employee-group-1-b5e24866-6e97-4cb4-bad0-6e8dc4ce1cce', protocol='range'}
+2024-07-09 11:25:53 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Notifying assignor about the new Assignment(partitions=[])
+2024-07-09 11:25:53 INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Adding newly assigned partitions: 
+2024-07-09 11:25:53 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: partitions assigned: []
+2024-07-09 11:29:38 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Member consumer-employee-group-1-b5e24866-6e97-4cb4-bad0-6e8dc4ce1cce sending LeaveGroup request to coordinator Stock-3:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2024-07-09 11:29:38 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-07-09 11:29:38 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: consumer pro-actively leaving the group
+2024-07-09 11:29:38 INFO  o.a.k.c.c.i.LegacyKafkaConsumer - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Unsubscribed all topics or patterns and assigned partitions
+2024-07-09 11:29:38 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-07-09 11:29:38 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: consumer pro-actively leaving the group
+2024-07-09 11:29:38 INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-07-09 11:29:38 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-07-09 11:29:38 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-07-09 11:29:38 INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-07-09 11:29:38 INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-employee-group-1 unregistered
+2024-07-09 11:29:38 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: Consumer stopped
+2024-07-09 11:29:40 INFO  c.k.e.EmployeeLoginApplication - Starting EmployeeLoginApplication using Java 17.0.11 with PID 353203 (/home/mohit.kumar/Documents/EmployeeLogin_optimise/target/classes started by mohit.kumar in /home/mohit.kumar/Documents/EmployeeLogin_optimise)
+2024-07-09 11:29:40 INFO  c.k.e.EmployeeLoginApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-09 11:29:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-09 11:29:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-09 11:29:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-07-09 11:29:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-09 11:29:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-09 11:29:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-07-09 11:29:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-09 11:29:41 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-09 11:29:41 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-09 11:29:41 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-09 11:29:41 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-09 11:29:41 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1064 ms
+2024-07-09 11:29:41 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-09 11:29:42 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-09 11:29:42 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-09 11:29:42 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-09 11:29:43 INFO  org.redisson.Version - Redisson 3.16.3
+2024-07-09 11:29:43 INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2024-07-09 11:29:43 INFO  o.r.c.pool.MasterConnectionPool - 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2024-07-09 11:29:43 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-09 11:29:43 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-09 11:29:43 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-09 11:29:43 INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-employee-group-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = employee-group
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+
+2024-07-09 11:29:43 INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2024-07-09 11:29:43 INFO  o.a.k.c.consumer.ConsumerConfig - These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2024-07-09 11:29:44 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.7.0
+2024-07-09 11:29:44 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 2ae524ed625438c5
+2024-07-09 11:29:44 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1720504783999
+2024-07-09 11:29:44 INFO  o.a.k.c.c.i.LegacyKafkaConsumer - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Subscribed to topic(s): employee-topic
+2024-07-09 11:29:44 INFO  c.k.e.EmployeeLoginApplication - Started EmployeeLoginApplication in 3.478 seconds (process running for 3.771)
+2024-07-09 11:29:44 INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Cluster ID: OLu-XQJbQ0iv5lCQWskzAA
+2024-07-09 11:29:44 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Discovered group coordinator Stock-3:9092 (id: 2147483647 rack: null)
+2024-07-09 11:29:44 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] (Re-)joining group
+2024-07-09 11:29:44 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: need to re-join with the given member-id: consumer-employee-group-1-2a23aa27-c0f7-489a-bc39-5f83ceca1001
+2024-07-09 11:29:44 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] (Re-)joining group
+2024-07-09 11:29:47 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Successfully joined group with generation Generation{generationId=57, memberId='consumer-employee-group-1-2a23aa27-c0f7-489a-bc39-5f83ceca1001', protocol='range'}
+2024-07-09 11:29:47 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Successfully synced group in generation Generation{generationId=57, memberId='consumer-employee-group-1-2a23aa27-c0f7-489a-bc39-5f83ceca1001', protocol='range'}
+2024-07-09 11:29:47 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Notifying assignor about the new Assignment(partitions=[employee-topic-0])
+2024-07-09 11:29:47 INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Adding newly assigned partitions: employee-topic-0
+2024-07-09 11:29:47 INFO  o.a.k.c.c.internals.ConsumerUtils - Setting offset for partition employee-topic-0 to the committed offset FetchPosition{offset=8, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[Stock-3:9092 (id: 0 rack: null)], epoch=0}}
+2024-07-09 11:29:47 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: partitions assigned: [employee-topic-0]
+2024-07-09 11:30:16 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 11:30:16 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-09 11:30:16 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-07-09 11:30:16 INFO  c.k.e.service.SessionService - Session created for user id: 4
+2024-07-09 11:30:16 INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = EmployeeLogin-producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2024-07-09 11:30:16 INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2024-07-09 11:30:16 INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=EmployeeLogin-producer-1] Instantiated an idempotent producer.
+2024-07-09 11:30:16 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.7.0
+2024-07-09 11:30:16 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 2ae524ed625438c5
+2024-07-09 11:30:16 INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1720504816856
+2024-07-09 11:30:16 INFO  org.apache.kafka.clients.Metadata - [Producer clientId=EmployeeLogin-producer-1] Cluster ID: OLu-XQJbQ0iv5lCQWskzAA
+2024-07-09 11:30:16 INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=EmployeeLogin-producer-1] ProducerId set to 2003 with epoch 0
+2024-07-09 11:30:33 INFO  c.k.e.service.SessionService - 28
+2024-07-09 11:30:33 INFO  c.k.e.service.SessionService - Session invalidated for user id: 28
+2024-07-09 11:30:49 ERROR c.k.e.service.SessionService - No session found for the request.
+2024-07-09 11:31:26 INFO  c.k.e.service.SessionService - 1
+2024-07-09 11:31:26 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2024-07-09 11:31:26 ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry 'mohanas' for key 'employee_login.UKg9p6h3vo2n8r5yq9998249ukt'
+2024-07-09 11:38:44 INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Node -1 disconnected.
+2024-07-09 11:39:17 INFO  o.apache.kafka.clients.NetworkClient - [Producer clientId=EmployeeLogin-producer-1] Node -1 disconnected.
+2024-07-09 11:39:22 INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Revoke previously assigned partitions employee-topic-0
+2024-07-09 11:39:22 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: partitions revoked: [employee-topic-0]
+2024-07-09 11:39:22 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Member consumer-employee-group-1-2a23aa27-c0f7-489a-bc39-5f83ceca1001 sending LeaveGroup request to coordinator Stock-3:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2024-07-09 11:39:22 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-07-09 11:39:22 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: consumer pro-actively leaving the group
+2024-07-09 11:39:22 INFO  o.a.k.c.c.i.LegacyKafkaConsumer - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Unsubscribed all topics or patterns and assigned partitions
+2024-07-09 11:39:22 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-07-09 11:39:22 INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-employee-group-1, groupId=employee-group] Request joining group due to: consumer pro-actively leaving the group
+2024-07-09 11:39:23 INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-07-09 11:39:23 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-07-09 11:39:23 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-07-09 11:39:23 INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-07-09 11:39:23 INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-employee-group-1 unregistered
+2024-07-09 11:39:23 INFO  o.s.k.l.KafkaMessageListenerContainer - employee-group: Consumer stopped
+2024-07-09 11:39:23 INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=EmployeeLogin-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-07-09 11:39:23 INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-07-09 11:39:23 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-07-09 11:39:23 INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-07-09 11:39:23 INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-07-09 11:39:23 INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for EmployeeLogin-producer-1 unregistered

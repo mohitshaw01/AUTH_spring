@@ -6,6 +6,7 @@ import com.kapturecx.employeelogin.dto.EmployeeLoginDto;
 import com.kapturecx.employeelogin.dto.EmployeeSignUpDto;
 import com.kapturecx.employeelogin.service.EmployeeLoginService;
 import com.kapturecx.employeelogin.service.SessionService;
+import com.kapturecx.employeelogin.util.InvalidInputException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,24 +29,16 @@ public class EmployeeLoginController {
     @Qualifier("employee")
     ObjectMapper objectMapper;
 
-
     @PostMapping("/signin")
-    public ResponseEntity<ObjectNode> logIn(@RequestBody EmployeeLoginDto employeeLoginDto, HttpServletRequest request, HttpServletResponse response){
+    public ResponseEntity<ObjectNode> logIn(@RequestBody EmployeeLoginDto employeeLoginDto, HttpServletRequest request, HttpServletResponse response)throws InvalidInputException {
         return employeeLoginService.login(employeeLoginDto,request,response);
     }
     @PostMapping("/signup")
-    public ResponseEntity<?> signUp(@RequestBody EmployeeSignUpDto employeeSignUpDto){
+    public ResponseEntity<?> signUp(@RequestBody EmployeeSignUpDto employeeSignUpDto) throws InvalidInputException{
         return employeeLoginService.signup(employeeSignUpDto);
     }
     @PostMapping("/signout")
-    public ResponseEntity<ObjectNode> logOut(HttpServletRequest request){
-        ObjectNode responseObject = objectMapper.createObjectNode();
-        if(sessionService.invalidateSession(request)){
-
-            responseObject.put("message", "Logging you out");
-            return new ResponseEntity<>(responseObject, HttpStatus.OK);
-        }
-        responseObject.put("error", "Error logging out");
-        return new ResponseEntity<>(responseObject, HttpStatus.BAD_REQUEST);
+    public ResponseEntity<ObjectNode> logOut(HttpServletRequest request) throws InvalidInputException{
+        return employeeLoginService.logout(request);
     }
 }

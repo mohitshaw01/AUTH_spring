@@ -19,7 +19,7 @@ public class EmployeeLogin implements Serializable {
     @Column(name = "client_id", nullable = false)
     private int clientId;
 
-    @Column(name = "username", nullable = false, unique = true)
+    @Column(name = "username", nullable = false)
     private String username;
 
     @Column(name = "password", nullable = false)

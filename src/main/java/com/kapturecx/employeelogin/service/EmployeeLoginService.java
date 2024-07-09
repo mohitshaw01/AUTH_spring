@@ -1,15 +1,14 @@
 package com.kapturecx.employeelogin.service;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.kapturecx.employeelogin.dao.EmployeeRepository;
 import com.kapturecx.employeelogin.dto.EmployeeLoginDto;
 import com.kapturecx.employeelogin.dto.EmployeeSignUpDto;
 import com.kapturecx.employeelogin.entity.EmployeeLogin;
-import com.kapturecx.employeelogin.service.KafkaService;
 import com.kapturecx.employeelogin.util.EmployeeMapper;
 import com.kapturecx.employeelogin.util.EmployeeSignUpMapper;
+import com.kapturecx.employeelogin.util.InvalidInputException;
 import com.kapturecx.employeelogin.validation.SignUpValidation;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -40,7 +39,7 @@ public class EmployeeLoginService {
     ObjectMapper objectMapper;
     private static final Logger logger = LoggerFactory.getLogger(SessionService.class);
 
-    public ResponseEntity<ObjectNode> login(EmployeeLoginDto employeeLoginDto, HttpServletRequest request, HttpServletResponse response) {
+    public ResponseEntity<ObjectNode> login(EmployeeLoginDto employeeLoginDto, HttpServletRequest request, HttpServletResponse response) throws InvalidInputException {
         ObjectNode responseObject = objectMapper.createObjectNode();
         EmployeeLogin employeeLogin = EmployeeMapper.dtoToEmployee(employeeLoginDto);
         String username = employeeLogin.getUsername();
@@ -58,7 +57,6 @@ public class EmployeeLoginService {
             responseObject.put("message", INVALID_USERNAME_OR_PASSWORD);
             return new ResponseEntity<>(responseObject, HttpStatus.BAD_REQUEST);
         }
-
         // Check Redis cache first
         EmployeeLogin cachedEmployee = redisService.getFromMapByEmployeeId(foundEmployee.getEmployeeId());
 
@@ -82,7 +80,7 @@ public class EmployeeLoginService {
         sessionService.createSession(request, response, clientId, username, password, id);
 
         // Cache the employee in Redis
-        redisService.saveInMap(foundEmployee);
+
 
         if (employeeRepository.updateEmployee(foundEmployee)) {
             kafkaService.sendMessage("employee-login-topic", employeeLogin);
@@ -123,13 +121,28 @@ public class EmployeeLoginService {
         }
     }
     // LOGOUT
-    public ResponseEntity<ObjectNode> logout(HttpServletRequest request){
+    public ResponseEntity<ObjectNode> logout(HttpServletRequest request) {
         ObjectNode responseObject = objectMapper.createObjectNode();
-        if (sessionService.invalidateSession(request)) {
-            responseObject.put("message", SUCCESS_LOGOUT);
-            return new ResponseEntity<>(responseObject, HttpStatus.OK);
+        try {
+            if (request == null) {
+                throw new NullPointerException("HttpServletRequest is null");
+            }
+            if (sessionService.invalidateSession(request)) {
+                responseObject.put("message", "Successfully logged out");
+                return new ResponseEntity<>(responseObject, HttpStatus.OK);
+            } else {
+                responseObject.put("error", "Error logging out");
+                return new ResponseEntity<>(responseObject, HttpStatus.BAD_REQUEST);
+            }
+        } catch (NullPointerException e) {
+            responseObject.put("error", "Request cannot be null");
+            return new ResponseEntity<>(responseObject, HttpStatus.BAD_REQUEST);
+        } catch (IllegalStateException e) {
+            responseObject.put("error", "Session is already invalidated or does not exist");
+            return new ResponseEntity<>(responseObject, HttpStatus.CONFLICT);
+        } catch (Exception e) {
+            responseObject.put("error", "Unexpected error: " + e.getMessage());
+            return new ResponseEntity<>(responseObject, HttpStatus.INTERNAL_SERVER_ERROR);
         }
-        responseObject.put("error", "Error logging out");
-        return new ResponseEntity<>(responseObject, HttpStatus.BAD_REQUEST);
     }
 }

@@ -1,6 +1,7 @@
 package com.kapturecx.employeelogin.service;
 
 import com.kapturecx.employeelogin.entity.EmployeeLogin;
+import com.kapturecx.employeelogin.util.InvalidInputException;
 import org.redisson.api.RBucket;
 import org.redisson.api.RedissonClient;
 import org.slf4j.Logger;
@@ -17,24 +18,24 @@ public class RedisService {
 
     private final String employeeLoginBucketKey = "EMPID:EmployeeLogin";
 
-    public void saveInMap(EmployeeLogin employeeLogin) {
+    public void saveInMap(EmployeeLogin employeeLogin) throws InvalidInputException {
         try {
             RBucket<EmployeeLogin> loginRBucket = redissonClient.getBucket(employeeLoginBucketKey + employeeLogin.getEmployeeId());
             loginRBucket.set(employeeLogin);
         } catch (Exception e) {
             //handle the exception appropriately
-            e.printStackTrace();
+            logger.info("error in Save in Map");
+            throw new InvalidInputException("Not valid");
         }
     }
 
-    public EmployeeLogin getFromMapByEmployeeId(int empId) {
+    public EmployeeLogin getFromMapByEmployeeId(int empId) throws InvalidInputException {
         try {
             RBucket<EmployeeLogin> loginRBucket = redissonClient.getBucket(employeeLoginBucketKey + empId);
             return loginRBucket.get();
         } catch (Exception e) {
-            //  handle the exception appropriately
-            e.printStackTrace();
-            return null; // Or throw an exception as needed
+            logger.info("error in get");
+            throw new InvalidInputException("Not valid");
         }
     }
 }
