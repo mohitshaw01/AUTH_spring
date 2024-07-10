@@ -34,7 +34,7 @@ public class EmployeeLoginController {
         return employeeLoginService.login(employeeLoginDto,request,response);
     }
     @PostMapping("/signup")
-    public ResponseEntity<?> signUp(@RequestBody EmployeeSignUpDto employeeSignUpDto) throws InvalidInputException{
+    public ResponseEntity<ObjectNode> signUp(@RequestBody EmployeeSignUpDto employeeSignUpDto) throws InvalidInputException{
         return employeeLoginService.signup(employeeSignUpDto);
     }
     @PostMapping("/signout")
